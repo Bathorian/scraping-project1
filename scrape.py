@@ -314,4 +314,4 @@ class WebScraper:
             json.dump(data, f, indent=2, ensure_ascii=False)
         print(f"Data saved to {filename}")
 
-
+print(WebScraper.extract_custom('div', ['class']))
